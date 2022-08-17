@@ -70,6 +70,4 @@ class DecodeMorse
 end
 
 decoder = DecodeMorse.new
-puts(decoder.decode_char('--'))
-puts(decoder.decode_word('-- -.--'))
 puts(decoder.decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'))
