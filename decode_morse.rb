@@ -50,7 +50,7 @@ class DecodeMorse
     '-.--.-' => '-',
     '.-...' => '&',
     '---.' => '+'
-  }
+  }.freeze
 
   def decode_char(char)
     MORSE[char].upcase
